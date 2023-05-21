@@ -1,0 +1,191 @@
+body{
+    background-image: url(../img/base\ 4\ image.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* retour bouton///////////////////////////////////////////////////////////////////// */
+.retour{
+    position: fixed;
+    text-align: center;
+    top: 22%;
+    right: 0%;
+    background-color: rgb(255, 56, 42);
+    width: 70px;
+    font-size: 28px;
+    transition: 0.4s;
+}
+
+
+.retour>a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.retour>a:hover{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.retour:hover{
+    transform: scale(1.1);
+    background: linear-gradient(rgb(216, 41, 10), rgb(255, 190, 69));
+    text-decoration: none;
+
+}
+
+/* Pop UP////////////////////////////////////////////////////////////////////// */
+
+.bl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.fenetre{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+}
+
+.panda{
+    position: absolute;
+    top: -90%;
+    left: 32%;
+}
+
+.center2{
+    color: black;
+    display: block;
+    text-align: center;
+    background-color: blueviolet;
+    font-size: 22px;
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+.center2>button{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.center2>*{
+    padding: 28px;
+}
+
+.c1>p>a{
+    color: rgb(85, 8, 8);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.c1>p>a:hover{
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    padding-left: 14px;
+    padding-right: 14px;
+
+}
+
+
+.menu{
+    position: fixed;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    /* background-color: rgb(170, 32, 32); */
+    font-size: 30px;
+    height: 90px;
+    width: 100%;
+    z-index: 10;
+    
+}
+
+.projet>a{
+    text-decoration: none;
+}
+
+label{
+    text-align: center;
+    width: 200px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    background-color: rgb(230, 230, 248);
+    border-radius: 20px;
+    border: solid 2px rgb(255, 255, 255);
+    transform: 0.2s;
+}
+
+label:hover{
+    background: linear-gradient( rgb(230, 230, 248), rgb(191, 191, 226), rgb(97, 107, 201));
+}
+
+input:checked + label {
+    background: linear-gradient(rgb(216, 41, 10), rgb(255, 190, 69));
+}
+
+.hidden{
+    display:none;
+    visibility: none;
+}
+
+/* Travailler sur les selection lol */
+/* Cacher le contenu du main */
+
+main>.center>div{display: none;}
+
+		main.c1>.center>.c1,
+        main.c2>.center>.c2,
+		main.c3>.center>.c3{
+            display: block;
+            background-color: rgb(255, 123, 70);
+            border-radius: 50px;
+            color: rgb(0, 0, 0);
+            width: 950px; 
+            margin: 60px;
+            border: 1px solid black;  
+            font-size: 22px;
+            padding: 36px;   
+		}
+
+.center>div>img{
+    width: 100%;
+}
+
+.lol{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Vidéos part 2 */
+
+.p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.double{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* carousel */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
