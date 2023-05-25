@@ -107,6 +107,7 @@ button:hover{
 
 }
 
+/* Menu///////////////////////////////////////////////////////////////////////////////// */
 
 .menu{
     position: fixed;
@@ -151,6 +152,7 @@ input:checked + label {
     display:none;
     visibility: none;
 }
+
 
 /* Travailler sur les selection lol */
 /* Cacher le contenu du main */
