@@ -74,24 +74,32 @@ body{
 }
 
 .center2>button{
+    position: relative;
+    top: -5%;
     text-align: center;
     background-color: rgb(255, 255, 255);
     text-decoration: none;
     border-radius: 20px;
     width: 200px;
+    transition: 0.3s;
+
+}
+
+button:hover{
+    transform: scale(1.1);
 }
 
 .center2>*{
     padding: 28px;
 }
 
-.c1>p>a{
+.c1>.p>p>a{
     color: rgb(85, 8, 8);
     text-decoration: none;
     transition: 0.3s;
 }
 
-.c1>p>a:hover{
+.c1>.p>p>a:hover{
     color: rgb(255, 255, 255);
     background-color: brown;
     padding-left: 14px;
@@ -132,6 +140,7 @@ label{
 
 label:hover{
     background: linear-gradient( rgb(230, 230, 248), rgb(191, 191, 226), rgb(97, 107, 201));
+    cursor: pointer;
 }
 
 input:checked + label {
