@@ -42,6 +42,13 @@ html{
     box-shadow: 10px 14px 1px black;
 }
 
+.button1>a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+
 .button1:hover{
     background: linear-gradient(rgb(216, 41, 10), rgb(255, 190, 69));
     color:white;
