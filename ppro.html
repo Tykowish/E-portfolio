@@ -11,13 +11,13 @@
    <header>
     <div class="menu">
         <input type="checkbox" id="graph" name="c1" class ="hidden">
-        <label for="web">Graphisme</label>
+        <label for="graph">Graphisme</label>
 
         <input type="checkbox" id="3d" name="c2" class ="hidden">
-        <label for="vid">3D</label>
+        <label for="3d">3D</label>
 
         <input type="checkbox" id="code" name="c3" class ="hidden">
-        <label for="vis">Codage</label>
+        <label for="code">Codage</label>
     </div>
    </header>
 
@@ -89,5 +89,29 @@
 
 </div>
 
+
+
+
+<!-- Choix Filtrage --> 
+<!-- Création d'un boutton "filtre" à partir du "Input" -->
+<script>
+    document.querySelectorAll("input").forEach(e=>{
+      e.addEventListener("change", filtre) 
+    })
+  
+  // Note: "Id" est relier avec le "label" mais le "name" est relié avec la "classe"
+    function filtre(){
+      document.querySelector("main").classList.toggle(this.name)
+    }
+
+
+// Faire disparaître une fenêtre :)  
+    function hide(){
+        document.getElementById("bl")
+                .outerHTML = "";
+}
+
+  </script>
+  
 </body>
 </html>
