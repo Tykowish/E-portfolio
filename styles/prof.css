@@ -114,3 +114,8 @@ main>.center>div{display: none;}
     justify-content: center;
     margin-top: 10px;
 }
+
+.double2{
+    display: flex;
+    justify-content: space-around;
+}
