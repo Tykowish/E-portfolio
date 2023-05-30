@@ -48,6 +48,20 @@ html{
     transition: 0.3s;
 }
 
+.c1>.p>p>a{
+    color: rgb(85, 8, 8);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.c1>.p>p>a:hover{
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    padding-left: 14px;
+    padding-right: 14px;
+
+}
+
 
 .button1:hover{
     background: linear-gradient(rgb(216, 41, 10), rgb(255, 190, 69));
