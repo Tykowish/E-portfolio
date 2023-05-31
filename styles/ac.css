@@ -321,3 +321,37 @@ select{
 .white{
     background-color: rgb(90, 9, 9);
 }
+
+
+
+/* Contact////////////////////////////////////////////////////////////////////////////////////// */
+
+.contact{
+    position: relative;
+    z-index: 10000;
+}
+
+.tyko{
+    background-color: rgb(173, 102, 60);
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+
+}
+
+.tyko>p>a{
+    text-decoration: none;
+    color: #000000;
+    padding: 20px;
+    transition: 0.2s;
+}
+
+
+.tyko>p>a:hover{
+    text-decoration:underline;
+    width: 20px;
+    background-color: rgb(131, 75, 42) ;
+
+}
+
+.mail{}
